@@ -593,12 +593,26 @@ header .quotes a:hover {
 	 text-align: center;
 	 position: relative;
  }
+.sub-bnr-cars{
+	background: url(../img/22.jpg) no-repeat;
+	background-size: cover;
+	min-height: 350px;
+	text-align: center;
+	position: relative;
+}
 .sub-bnr-services {
 	background: url(../img/1212.jpg) no-repeat;
 	background-size: cover;
 	min-height: 350px;
 	text-align: center;
 	position: relative;
+}
+.sub-bnr-cars .breadcrumb {
+	background: none;
+	margin: 0px;
+	padding: 0px;
+	color: #fb4848;
+
 }
 .sub-bnr-servicess .breadcrumb {
 	background: none;
@@ -609,6 +623,10 @@ header .quotes a:hover {
 }
 
 .sub-bnr-servicess h4{
+	color: #fb4848;
+
+}
+.sub-bnr-cars h4{
 	color: #fb4848;
 
 }
@@ -770,7 +788,7 @@ header .quotes a:hover {
 	margin-bottom: 30px;
 }
 .services li article p {
-	color: #999999;
+	color: #000000;
 	font-size: 14px;
 	line-height: 24px;
 	margin: 0px;
@@ -780,7 +798,6 @@ header .quotes a:hover {
 	text-align: center;
 }
 .services li article .ser-head {
-	position: absolute;
 	bottom: -1px;
 	width: 100%;
 }
@@ -850,10 +867,9 @@ header .quotes a:hover {
 	padding-bottom: 60px;
 	position: relative;
 }
-.detail-in li{
-	list-style: disc;
-}
-.detail-in ul{
+
+
+.detail-in ul li{
 	margin-bottom: 15px;
 }
 .detail-in p {
